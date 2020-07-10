@@ -1,0 +1,59 @@
+body{
+    background: transparent;
+}
+.banner{
+    width: 100%;
+    background: transparent;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner video{
+    position: absolute;
+    top:0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+.Stopwatch{
+    position: relative;
+
+    width: 600px;
+    text-align: center;
+    border-radius:  8px;
+    z-index: 1;
+    overflow: hidden;
+}
+.digits{
+    display: inline-flex;
+    font-size: 44px;
+    text-align: center;
+    background: transparent;
+    color: #E9C3A3;
+}
+button{
+    border-radius: 3px;
+    border-color: #844A3B;
+    background: #463428;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #E9C3A3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 12px;
+
+
+}
+button:hover{
+    color: #844A3B;
+    background: #E9C3A3;
+    box-shadow: 0 0 10px #E9C3A3 , 0 0 20px #E9C3A3, 0 0 60px #E9C3A3;
+}
